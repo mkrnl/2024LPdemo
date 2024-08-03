@@ -139,6 +139,7 @@ header{
 .mv_content{
   max-width:600px;
   margin-top:15%;
+  margin-bottom:5%;
   padding:2%;
   text-align: center;
   background-color: #ffffffc5;
@@ -193,7 +194,8 @@ header{
 
 .mv_ticket a{
   margin:0 auto;
-  margin-top:90px;
+  margin-top:10%;
+  margin-bottom:5%;
   width:200px;
   height:60px;
   background-color: #fff;
@@ -713,6 +715,18 @@ footer .container{
   }
 }
 
+@media(min-width:620px) and (max-height:450px){
+
+  .mv_title,
+  .mv_ticket{
+    display: none;
+  }
+
+  .mv_date{
+    margin: 0;
+  }
+}
+
 @media(max-width:620px){
 
   .menu.active{
@@ -721,8 +735,13 @@ footer .container{
     line-height: 2rem;
   }
 
-  .mv_wrapper{
-    min-height:400px
+  .mv{
+    min-height:300px;
+  }
+
+  .mv_content{
+    position: absolute;
+    bottom:20px;
   }
 
   .mv_content h2,
@@ -803,6 +822,7 @@ footer .container{
 }
 
 @media(max-width:450px){
+
   .access_item dl dd{
     width: 100%;
     margin-left: 1.0rem;
