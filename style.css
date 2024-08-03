@@ -573,6 +573,24 @@ footer .container{
 
 
 /* responsive */
+
+@media(min-width:400px) and (max-height:calc(100vw/1.8)){
+
+  .mv_title,
+  .mv_ticket{
+    display: none;
+  }
+
+  .mv_date{
+    margin:0;
+  }
+
+  .mv_content{
+    position: absolute;
+    bottom:10%;
+  }
+}
+
 @media(max-width:900px){
 
   /* header */
@@ -711,23 +729,6 @@ footer .container{
     flex-direction: column;
     align-items: left;
     gap:30px;
-  }
-}
-
-@media(min-width:620px) and (max-height:calc(100vw/1.8)){
-
-  .mv_title,
-  .mv_ticket{
-    display: none;
-  }
-
-  .mv_date{
-    margin:0;
-  }
-
-  .mv_content{
-    position: absolute;
-    bottom:10%;
   }
 }
 
