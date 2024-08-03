@@ -36,7 +36,7 @@ li{
 }
 
 section.container{
-  padding:5% 8%;
+  padding:50px 30px;
 }
 
 .title_icon{
@@ -544,6 +544,7 @@ header{
   display: block;
   width:100%;
   height:auto;
+  max-height:400px;
 }
 
 .illust_text p{
@@ -579,7 +580,8 @@ footer .container{
   }
 
   .logo_top{
-    width: 240px;
+    width:100%;
+    max-width: 240px;
   }
 
   .hamburger{
@@ -655,6 +657,10 @@ footer .container{
     font-size: 1.0rem;
   }
 
+  .mv_time dt{
+    font-size: 0.9rem;
+  }
+
   .mv_ticket a{
     margin-top:15%;
     margin-bottom:15%;
@@ -714,7 +720,7 @@ footer .container{
     text-align: center;
     line-height: 2rem;
   }
-  
+
   .mv_wrapper{
     min-height:400px
   }
@@ -729,7 +735,17 @@ footer .container{
     margin-top:3%;
   }
 
-  .section_title{
+  .about h2{
+    font-size: 1.1rem;
+  }
+
+  .about p{
+    font-size: 1.0rem;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+   .section_title{
     font-size:1.2rem;
   }
 
@@ -783,6 +799,13 @@ footer .container{
 
   .purchase_button p{
     font-size: 1.1rem;
+  }
+}
+
+@media(max-width:450px){
+  .access_item dl dd{
+    width: 100%;
+    margin-left: 1.0rem;
   }
 }
 
