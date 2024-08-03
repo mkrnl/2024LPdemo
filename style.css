@@ -714,16 +714,20 @@ footer .container{
   }
 }
 
-@media(min-width:620px) and (max-height:calc(100vh/2.5)){
+@media(min-width:620px) and (max-height:calc(100vw/1.8)){
 
   .mv_title,
   .mv_ticket{
     display: none;
   }
 
+  .mv_date{
+    margin:0;
+  }
+
   .mv_content{
     position: absolute;
-    bottom:20px;
+    bottom:10%;
   }
 }
 
@@ -741,7 +745,7 @@ footer .container{
 
   .mv_content{
     position: absolute;
-    bottom:20px;
+    bottom:10%;
   }
 
   .mv_content h2,
